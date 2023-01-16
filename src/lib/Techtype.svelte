@@ -16,7 +16,7 @@
 </script>
 
 <div class="techtype" on:mousedown={handleClick}>
-    <div class:showLangs>
+    <div class:showLangs class="main-img">
         <img src={`src/assets/${tech}.svg`} alt="">
         <span class="techtitle">{tech}</span>
     </div>
@@ -63,7 +63,7 @@
         transform: translateX(20px)
     }
 
-    .techtype:hover{
+    .main-img:hover{
         transform: scale(1.10);
     }
     
