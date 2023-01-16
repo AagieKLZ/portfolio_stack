@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: rotate(72deg);
+  transform-origin: 50% -100%;
+}
+
+.item:nth-child(1) {
+  transform: rotate(0deg);
+}
+
+.item:nth-child(2) {
+  transform: rotate(72deg);
+}
+
+.item:nth-child(3) {
+  transform: rotate(144deg);
+}
+
+.item:nth-child(4) {
+  transform: rotate(216deg);
+}
+
+.item:nth-child(5) {
+  transform: rotate(288deg);
+}
+
+    </style>
+</head>
+<body>
+    <div class="circle">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+      </div>
+      
+</body>
+</html>

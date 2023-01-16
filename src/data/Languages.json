@@ -1,0 +1,7 @@
+{
+    "Languages" : ["Javascript", "Typescript", "Python", "Java", "PHP"],
+    "Backend" : ["Express", "Node", "Flask", "Django"],
+    "Databases" : ["Postgres", "MySQL", "MongoDB"],
+    "Frontend" : ["React", "Svelte", "NextJS"],
+    "Others" : ["Csharp", "Rust", "Docker", "Git"]
+}
